@@ -58,7 +58,7 @@ The engagement-level is classified into four levels: Disengaged, Barely-engaged,
 
 4. Open terminal in OpenFace/build directory and run:
 ```bash
-./bin/FeatureExtraction -wild -device 0 -pose -gaze -2Dfp -3Dfp
+./bin/FeatureExtraction -wild -device_id 0 -pose -gaze -2Dfp -3Dfp
 ```
   This starts the video input and starts storing preprocessed data in the OpenFace/build/processed directory.
   
